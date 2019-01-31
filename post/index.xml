@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Change the world Site</title>
+    <link>https://king.github.io/post/</link>
+    <description>Recent content in Posts on Change the world Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Feb 2017 15:01:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://king.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test</title>
+      <link>https://king.github.io/post/test/</link>
+      <pubDate>Fri, 10 Feb 2017 15:01:33 +0800</pubDate>
+      
+      <guid>https://king.github.io/post/test/</guid>
+      <description>Hello Hugo！测试内容</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://king.github.io/post/kingking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://king.github.io/post/kingking/</guid>
+      <description>链路自发现的坑 1.parseSwitches数据源
+1）能否正确获取到数据
+2）获取的数据lldp信息是否有
+lldpRemPortId 是*&amp;ldquo;lldpRemPortId&amp;rdquo;: &amp;ldquo;xgei-0/1/1/18&amp;rdquo;还是&amp;ldquo;lldpRemPortId&amp;rdquo;: &amp;ldquo;xgei-0/1/1/18（xgei-0/1/1/48）&amp;rdquo;*形式
+2.链路名称为空（未定义）
+3.A端设备名称为空
+GetDevicePortDst搜索所有port时未添加devicedname
+4.从库中搜索port时长短id问题
+link中先通过mac和短id搜索对端得到长id，再根据长id进行update linktype
+5.更新linktype时，为空或者autodiscover都进行更新
+6.要确保设备都存在，切端口都有</description>
+    </item>
+    
+  </channel>
+</rss>
